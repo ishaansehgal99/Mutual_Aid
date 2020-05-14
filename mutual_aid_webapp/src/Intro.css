@@ -1,0 +1,20 @@
+.intro-text {
+    color: #ba576f;
+    font-weight: bold;
+}
+
+.intro-image {
+    max-width: 100%;
+}
+
+.text-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-align {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
