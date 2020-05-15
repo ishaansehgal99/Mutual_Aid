@@ -50,7 +50,7 @@ class Download extends React.Component {
                     <Col md = "auto"> {this.AppStoreButton()} </Col>
                 </Row>
                 <Row className = "margin-top margin-bottom">
-                    <Col className = "text-align"> {this.DownloadInfoText()} </Col>
+                    <Col className = "download-info text-align"> {this.DownloadInfoText()} </Col>
                 </Row>
             </Container>
         );

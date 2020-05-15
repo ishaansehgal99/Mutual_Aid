@@ -18,3 +18,11 @@
     align-items: center;
     justify-content: right;
 }
+
+.xlarge-font {
+    font-size: x-large;
+}
+
+.bold-font {
+    font-weight: bold;
+}

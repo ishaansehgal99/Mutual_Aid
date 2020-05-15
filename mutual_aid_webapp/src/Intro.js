@@ -20,8 +20,8 @@ class Intro extends React.Component {
     IntroductoryText = () => {
         return (
             <div className = "intro-text">
-                <h3> We are here to help you get through hard times. </h3>
-                <h5> Mutual Aid is completely free to use, developed by students, supported by non-profits. </h5>
+                <h3 className = "bold-font"> We are here to help you get through hard times. </h3>
+                <h5 className = "xlarge-font"> Mutual Aid is completely free to use, developed by students, supported by non-profits. </h5>
             </div>
         );
     }

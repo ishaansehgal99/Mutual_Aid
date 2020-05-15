@@ -45,8 +45,8 @@ class About extends React.Component {
                     <Col className = "text-align"> {this.AboutTitle()} </Col>
                 </Row>
                 <Row className = "margin-top margin-bottom">
-                    <Col className = ""> {this.ColumnOneText()} </Col>
-                    <Col className = ""> {this.ColumnTwoText()} </Col>
+                    <Col className = "p-text"> {this.ColumnOneText()} </Col>
+                    <Col className = "p-text"> {this.ColumnTwoText()} </Col>
                 </Row>
             </Container>
         );

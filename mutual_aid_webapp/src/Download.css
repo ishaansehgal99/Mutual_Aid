@@ -3,6 +3,10 @@
     font-weight: bold;  
 }
 
+.download-info {
+    font-size: larger;
+}
+
 .text-align {
     justify-content: center;
 }
