@@ -28,7 +28,7 @@ class Intro extends React.Component {
 
     render() {
         return (
-            <Container className = "p-5">
+            <Container className = "p-3">
                 <Row>
                     <Col className = "text-align"> {this.IntroductoryText()} </Col>
                     <Col className = "image-align"> {this.ComputerImage()} </Col>

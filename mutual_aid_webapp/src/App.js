@@ -19,10 +19,16 @@ const App = () => (
       </Container>
     </div>
     <div className = "intro">
-      <Container>
-          <Intro></Intro>  
+      <Container className = "p-5">
+        <Intro></Intro>  
+      </Container>  
+    </div>
+    <div id = "contact" className = "contact form">
+      <Container className = "pt-5">
+        <iframe className = "form" src="https://docs.google.com/forms/d/e/1FAIpQLSdQlIDE3zgCoKJQL0_lDUySXh1_20rJ6mWBC_t04rxuT2rhHQ/viewform?embedded=true" width="640" height="645" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
       </Container>
     </div>
+    
     <div id = "about" className = "about">
       <Container>
           <About></About>  
@@ -31,11 +37,6 @@ const App = () => (
     <div id = "download" className = "download">
       <Container>
           <Download name = "download"></Download>  
-      </Container>
-    </div>
-    <div id = "contact" className = "contact form">
-      <Container>
-        <iframe className = "form" src="https://docs.google.com/forms/d/e/1FAIpQLSdQlIDE3zgCoKJQL0_lDUySXh1_20rJ6mWBC_t04rxuT2rhHQ/viewform?embedded=true" width="640" height="645" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
       </Container>
     </div>
   </div>

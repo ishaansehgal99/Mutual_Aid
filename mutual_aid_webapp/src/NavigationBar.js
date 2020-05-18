@@ -28,10 +28,10 @@ class NavigationBar extends React.Component {
         return (
             <Nav className = "justify-content-end">
                 <Nav.Item>
-                    <Nav.Link href = "#about" eventKey = "About" className = "nav-text"> About </Nav.Link>
+                    <Nav.Link href = "#contact" eventKey = "Contact" className = "nav-text"> Contact </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href = "#contact" eventKey = "Contact" className = "nav-text"> Contact </Nav.Link>
+                    <Nav.Link href = "#about" eventKey = "About" className = "nav-text"> About </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link href = "#download" eventKey = "Download" className = "nav-text"> Download </Nav.Link>

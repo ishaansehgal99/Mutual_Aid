@@ -16,21 +16,25 @@
   width: 100%;
 }
 
-.about {
+.contact {
   background-color: #ba576f;
   width: 100%;
 }
 
-.download {
+.about {
   background-color: white;
   width: 100%;
 }
 
-.contact {
+.download {
   background-color: #ba576f;
   width: 100%;
 }
 
 .form {
   text-align: center;
+}
+
+iframe {
+  height: 90vh;
 }
