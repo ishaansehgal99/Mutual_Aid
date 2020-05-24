@@ -1,28 +1,23 @@
-.intro-text {
+.messages-text {
     color: #ba576f;
-    font-weight: bold;
 }
 
-.intro-image {
+.messages-image {
     max-width: 100%;
+}
+
+.lighter-font {
+    font-weight: 300;
 }
 
 .text-align {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
 }
 
 .image-align {
     display: flex;
     align-items: center;
     justify-content: right;
-}
-
-.xlarge-font {
-    font-size: x-large;
-}
-
-.bold-font {
-    font-weight: bold;
 }

@@ -3,25 +3,27 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
+import VideoButton from './VideoButton';
 
-import "./Intro.css";
+import "./Banner.css";
 
-class Intro extends React.Component {
+class Banner extends React.Component {
     constructor(props) {
         super(props);
     }
 
     ComputerImage = () => {
         return (
-            <Image src = {require('./walking.png')} className = "intro-image"/>
+            <Image src = {require('./banner.png')} className = "banner-image"/>
         );
     }
 
     IntroductoryText = () => {
         return (
-            <div className = "intro-text">
-                <h3 className = "bold-font"> We are here to help you get through hard times. </h3>
-                <h5 className = "xlarge-font"> Mutual Aid is completely free to use, developed by students, supported by non-profits. </h5>
+            <div className = "banner-text">
+                <h3> Mutual Aid for COVID-19 </h3>
+                <h5> We are all in this together. </h5>
+                <VideoButton></VideoButton>
             </div>
         );
     }
@@ -30,12 +32,12 @@ class Intro extends React.Component {
         return (
             <Container className = "p-3">
                 <Row>
-                    <Col className = "text-align"> {this.IntroductoryText()} </Col>
                     <Col className = "image-align"> {this.ComputerImage()} </Col>
+                    <Col className = "text-align"> {this.IntroductoryText()} </Col>
                 </Row>
             </Container>
         );
     }
 }
 
-export default Intro;
+export default Banner;

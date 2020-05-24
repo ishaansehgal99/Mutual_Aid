@@ -1,5 +1,8 @@
 .download-text {
     color: white;
+}
+
+.bold-text {
     font-weight: bold;  
 }
 
@@ -9,6 +12,7 @@
 
 .text-align {
     justify-content: center;
+    align-items: center;
 }
 
 .margin-top {

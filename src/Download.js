@@ -33,7 +33,7 @@ class Download extends React.Component {
 
     DownloadInfoText = () => {
         return (
-            <p className = "download-text">
+            <p className = "download-text bold-text">
                 Our app is available on the leading platforms. Download now on iOS or Android.
             </p>
         );
@@ -41,7 +41,7 @@ class Download extends React.Component {
 
     render() {
         return (
-            <Container className = "p-4">
+            <Container className = "pt-5">
                 <Row className = "margin-top margin-bottom">
                     <Col className = "text-align"> {this.DownloadText()} </Col>
                 </Row>
@@ -52,7 +52,9 @@ class Download extends React.Component {
                 <Row className = "margin-top margin-bottom">
                     <Col className = "download-info text-align"> {this.DownloadInfoText()} </Col>
                 </Row>
+                <h6 className = "text-align download-text"> Copyright © 2020 Mutual Aid Inc. All rights reserved. </h6>
             </Container>
+            
         );
     }
 }

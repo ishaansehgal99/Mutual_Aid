@@ -1,0 +1,21 @@
+.sticky-nav {
+  position: fixed;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  top: 0;
+  z-index: 999;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.maroon-background {
+  background-color: #ba576f;
+}
+
+.white-background {
+  background-color: white;
+}
+
+.fill-width {
+  width: 100%;
+}
