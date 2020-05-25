@@ -23,9 +23,9 @@ class Requests extends React.Component {
                 <h2>
                     Receive support from those who are willing to help.
                 </h2>
-                <h5> 
+                <h4 className = "lighter-font"> 
                     You're not alone. Submit requests through the app for PPE, food, and disinfectants.
-                </h5>
+                </h4>
             </div>
         );
     }

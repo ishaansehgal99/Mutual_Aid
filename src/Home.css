@@ -3,6 +3,7 @@
 }
 
 .home-image {
+    max-height: 100%;
     max-width: 100%;
 }
 
@@ -16,4 +17,12 @@
     display: flex;
     align-items: center;
     justify-content: right;
+}
+
+.lighter-font {
+    font-weight: 300;
+}
+
+.shrink-row {
+    max-height: 0%;
 }

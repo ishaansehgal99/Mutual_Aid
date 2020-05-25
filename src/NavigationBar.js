@@ -3,7 +3,8 @@ import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import * as typeformEmbed from '@typeform/embed'
+import * as typeformEmbed from '@typeform/embed';
+import VideoButton from './VideoButton';
 
 import './NavigationBar.css';
 
@@ -50,9 +51,7 @@ class NavigationBar extends React.Component {
                 <Nav.Item>
                     <Nav.Link href = "#download" eventKey = "Download" className = "nav-text"> Download </Nav.Link>
                 </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link eventKey = "Contact" className = "btn-contact nav-text" onSelect = {this.MakeTfPopup}> Contact</Nav.Link>
-                </Nav.Item>
+                <VideoButton></VideoButton>
             </Nav>
         );
     }

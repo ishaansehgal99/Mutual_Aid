@@ -23,16 +23,16 @@ class Home extends React.Component {
                 <h2>
                     Inform yourself about the ongoing needs of your community.
                 </h2>
-                <h5> 
+                <h4 className = "lighter-font"> 
                     Share your story and learn about the hardships of others.
-                </h5>
+                </h4>
             </div>
         );
     }
 
     render() {
         return (
-            <Container className = "py-5">
+            <Container className = "shrink-row" className = "py-5">
                 <Row>
                     <Col className = "image-align"> {this.HomeScreenshot()} </Col>
                     <Col className = "text-align"> {this.HomeDescription()} </Col>

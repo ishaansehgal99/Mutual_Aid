@@ -18,3 +18,7 @@
     align-items: right;
     justify-content: right;
 }
+
+.lighter-font {
+    font-weight: 300;
+}

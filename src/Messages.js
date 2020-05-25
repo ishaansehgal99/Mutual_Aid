@@ -21,10 +21,10 @@ class Messages extends React.Component {
         return (
             <div className = "messages-text">
                 <h2>
-                    Engage with people in your community.
+                    Better understand the needs of your community.
                 </h2>
                 <h4 className = "lighter-font"> 
-                    Share your story and learn about the hardships of others.
+                    Transparent and open communication between those in need and those willing to help.
                 </h4>
             </div>
         );

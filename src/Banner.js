@@ -4,12 +4,30 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import VideoButton from './VideoButton';
+import * as typeformEmbed from '@typeform/embed';
+import Button from 'react-bootstrap/Button';
 
 import "./Banner.css";
 
 class Banner extends React.Component {
     constructor(props) {
         super(props);
+    }
+
+    MakeTfPopup = () => {
+        const reference = typeformEmbed.makePopup(
+            'https://kmurthy3.typeform.com/to/ma5svB',
+            {
+                mode: 'popup',
+                autoClose: 3000,
+                hideHeaders: false,
+                hideFooters: false,
+                onSubmit: function () {
+                    console.log('Typeform successfully submitted')
+                }
+            }
+        );
+        reference.open();
     }
 
     ComputerImage = () => {
@@ -21,9 +39,9 @@ class Banner extends React.Component {
     IntroductoryText = () => {
         return (
             <div className = "banner-text">
-                <h3> Mutual Aid for COVID-19 </h3>
-                <h5> We are all in this together. </h5>
-                <VideoButton></VideoButton>
+                <h1> Mutual Aid for COVID-19 </h1>
+                <h4 className = "lighter-font top-margin"> We are all in this together. </h4>
+                <Button className = "top-margin" size = "lg" variant = "light" onClick = {this.MakeTfPopup}> Connect to your Community </Button>
             </div>
         );
     }
