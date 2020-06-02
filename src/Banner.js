@@ -41,7 +41,7 @@ class Banner extends React.Component {
             <div className = "banner-text">
                 <h1> Mutual Aid for COVID-19 </h1>
                 <h4 className = "lighter-font top-margin"> We are all in this together. </h4>
-                <Button className = "top-margin" size = "lg" variant = "light" onClick = {this.MakeTfPopup}> Connect to your Community </Button>
+                <Button className = "top-margin" size = "lg" variant = "light" onClick = {this.MakeTfPopup}> Sign Up on Our Platform </Button>
             </div>
         );
     }
