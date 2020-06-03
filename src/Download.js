@@ -41,7 +41,7 @@ class Download extends React.Component {
 
     render() {
         return (
-            <Container className = "pt-3">
+            <Container>
                 <Row className = "margin-top margin-bottom">
                     <Col className = "text-align"> {this.DownloadText()} </Col>
                 </Row>

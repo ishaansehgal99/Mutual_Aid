@@ -41,7 +41,7 @@ const App = () => (
     </div>
     
     <div id = "download" className = "maroon-background fill-width">
-      <Container>
+      <Container className = "py-5">
           <Download name = "download"></Download>  
       </Container>
     </div>
