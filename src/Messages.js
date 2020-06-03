@@ -32,9 +32,9 @@ class Messages extends React.Component {
 
     render() {
         return (
-            <Container className = "py-5">
+            <Container>
                 <Row>
-                    <Col className = "image-align"> {this.MessageScreenshot()} </Col>
+                    <Col className = "image-align" style = {{justifyContent: "center", alignItems: "center"}}> {this.MessageScreenshot()} </Col>
                     <Col className = "text-align"> {this.MessageDescription()} </Col>
                 </Row>
             </Container>

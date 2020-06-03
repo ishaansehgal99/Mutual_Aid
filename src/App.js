@@ -23,25 +23,25 @@ const App = () => (
     </div>
 
     <div id = "about" className = "white-background fill-width">
-      <Container className = "py-5">
+      <Container>
           <Home></Home>  
       </Container>
     </div>
 
     <div className = "maroon-background fill-width">
-      <Container className = "py-5">
+      <Container>
           <Requests></Requests>  
       </Container>
     </div>
 
     <div className = "white-background fill-width">
-      <Container className = "py-5">
+      <Container>
           <Messages></Messages>  
       </Container>
     </div>
     
     <div id = "download" className = "maroon-background fill-width">
-      <Container className = "py-5">
+      <Container>
           <Download name = "download"></Download>  
       </Container>
     </div>

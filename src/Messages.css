@@ -3,7 +3,8 @@
 }
 
 .messages-image {
-    max-width: 100%;
+    max-height: 80%;
+    max-width: 80%;
 }
 
 .lighter-font {

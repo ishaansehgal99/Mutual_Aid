@@ -32,10 +32,10 @@ class Requests extends React.Component {
 
     render() {
         return (
-            <Container className = "py-5">
+            <Container>
                 <Row>
                     <Col className = "text-align"> {this.RequestsDescription()} </Col>
-                    <Col className = "image-align"> {this.RequestsScreenshot()} </Col>
+                    <Col className = "image-align" style = {{justifyContent: "center", alignItems: "center"}}> {this.RequestsScreenshot()} </Col>
                 </Row>
             </Container>
         );

@@ -32,9 +32,9 @@ class Home extends React.Component {
 
     render() {
         return (
-            <Container className = "shrink-row" className = "py-5">
+            <Container>
                 <Row>
-                    <Col className = "image-align"> {this.HomeScreenshot()} </Col>
+                    <Col className = "image-align" style = {{justifyContent: "center", alignItems: "center"}}> {this.HomeScreenshot()} </Col>
                     <Col className = "text-align"> {this.HomeDescription()} </Col>
                 </Row>
             </Container>
