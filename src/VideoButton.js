@@ -1,35 +1,38 @@
-import React from 'react';
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
-import YouTube from 'react-youtube';
+import React from "react";
+import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
+import YouTube from "react-youtube";
 
-import './VideoButton.css';
+import "./styles/VideoButton.css";
 
 class VideoButton extends React.Component {
-  constructor (props) {
+  constructor(props) {
     super(props);
     this.state = {
-      show: false
+      show: false,
     };
   }
-    
+
   handleClose = () => {
     this.setState({ show: false });
-	}
+  };
 
-	handleShow = () => {
-		this.setState({ show: true });
-  }
+  handleShow = () => {
+    this.setState({ show: true });
+  };
 
-  render () {
-      return (
-          <div>
-              <Button variant = "light" onClick={this.handleShow}> Watch a Demo </Button>
-              <Modal show={this.state.show} onHide={this.handleClose}>
-                  <YouTube videoId = "eBosNTyUF4I" className = "center-items"/>
-              </Modal>
-          </div>
-      )
+  render() {
+    return (
+      <div>
+        <Button variant="light" onClick={this.handleShow}>
+          {" "}
+          Watch a Demo{" "}
+        </Button>
+        <Modal show={this.state.show} onHide={this.handleClose}>
+          <YouTube videoId="eBosNTyUF4I" className="center-items" />
+        </Modal>
+      </div>
+    );
   }
 }
 

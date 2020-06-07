@@ -1,0 +1,14 @@
+.nav-text:hover {
+  color: lightgray;
+}
+
+.nav-text {
+  color: white;
+}
+
+.btn-contact {
+  background-color: white;
+  color: #ba576f;
+  border-radius: 5px;
+  margin-right: auto;
+}

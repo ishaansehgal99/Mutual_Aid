@@ -1,0 +1,25 @@
+.requests-text {
+  color: white;
+  font-weight: lighter;
+}
+
+.requests-image {
+  max-height: 80%;
+  max-width: 80%;
+}
+
+.text-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-align {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+
+.lighter-font {
+  font-weight: 300;
+}

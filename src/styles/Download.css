@@ -1,0 +1,27 @@
+.download-text {
+  color: white;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.download-info {
+  font-size: larger;
+}
+
+.text-align {
+  justify-content: center;
+  align-items: center;
+}
+
+.margin-top {
+  margin-top: 3%;
+}
+.margin-bottom {
+  margin-bottom: 5%;
+}
+
+.download-image {
+  max-width: 100%;
+}
