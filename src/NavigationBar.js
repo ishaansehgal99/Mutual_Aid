@@ -1,8 +1,5 @@
 import React from "react";
-import Nav from "react-bootstrap/Nav";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import { Nav, Container, Row, Col } from "react-bootstrap";
 import * as typeformEmbed from "@typeform/embed";
 import VideoButton from "./VideoButton";
 
